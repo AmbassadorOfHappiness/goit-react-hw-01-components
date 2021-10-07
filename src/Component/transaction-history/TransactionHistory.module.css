@@ -1,0 +1,28 @@
+.transactionTable {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.transactionTr:first-child {
+  background: #afcde7;
+  color: white;
+}
+
+th,
+td,
+tr {
+  border: 1px solid grey;
+  padding: 10px 40px 10px 40px;
+}
+
+tr:nth-child(odd) {
+  background: white;
+}
+
+tr:nth-child(even) {
+  background: #e8e6d1;
+}
