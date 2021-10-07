@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from '../social-profile/Profile.module.css';
 
 export default function Profile({ name, tag, location, avatar, stats }) {
@@ -32,4 +33,14 @@ export default function Profile({ name, tag, location, avatar, stats }) {
         </div>
 
     )
+}
+
+Profile.propTypes = {
+    avatar: PropTypes.string,
+    location: PropTypes.string,
+    name: PropTypes.string,
+    tag: PropTypes.string,
+    followers: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
 }

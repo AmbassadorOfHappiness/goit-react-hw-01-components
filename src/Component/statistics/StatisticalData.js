@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from '../statistics/StatisticalData.module.css';
 
 export default function Statistics({ title, stats }) {
@@ -21,4 +22,10 @@ export default function Statistics({ title, stats }) {
 
 function random() {
   return Math.floor(Math.random() * 256);
+}
+
+Statistics.propTypes = {
+    id: PropTypes.string,
+    label: PropTypes.string,
+    percentage: PropTypes.number,
 }

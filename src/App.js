@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css'
-// import ReactDom from 'react-dom';
-// import logo from './logo.svg'
 
 import FriendList from './Component/friend-list/FriendList/FriendList'
 import Profile from './Component/social-profile/Profile';
@@ -13,9 +11,8 @@ import friends from './Component/friend-list/friends.json';
 import statisticalData from './Component/statistics/statistical-data.json';
 import transactions from './Component/transaction-history/transactions.json';
 
-console.log(transactions);
 
-// }
+
 function App() {
   return (
     <>
